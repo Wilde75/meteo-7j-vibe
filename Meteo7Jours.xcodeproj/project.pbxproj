@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000100 /* AppDelegate.swift */; };
+		A10000000000000000000201 /* CityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000101 /* CityStore.swift */; };
+		A10000000000000000000202 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000102 /* ForecastView.swift */; };
+		A10000000000000000000203 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000103 /* KeychainStore.swift */; };
+		A10000000000000000000204 /* Meteo7JoursApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000104 /* Meteo7JoursApp.swift */; };
+		A10000000000000000000205 /* MeteoFranceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000105 /* MeteoFranceClient.swift */; };
+		A10000000000000000000206 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000106 /* Models.swift */; };
+		A10000000000000000000207 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000107 /* SettingsView.swift */; };
+		A10000000000000000000208 /* WeatherIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000108 /* WeatherIcon.swift */; };
+		A10000000000000000000209 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000109 /* WeatherViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000000000000000000004 /* Meteo7Jours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meteo7Jours.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A10000000000000000000101 /* CityStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = CityStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000102 /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = ForecastView.swift; sourceTree = "<group>"; };
+		A10000000000000000000103 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000104 /* Meteo7JoursApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = Meteo7JoursApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000105 /* MeteoFranceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = MeteoFranceClient.swift; sourceTree = "<group>"; };
+		A10000000000000000000106 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = Models.swift; sourceTree = "<group>"; };
+		A10000000000000000000107 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A10000000000000000000108 /* WeatherIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = WeatherIcon.swift; sourceTree = "<group>"; };
+		A10000000000000000000109 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		A10000000000000000000300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000301 /* Meteo7Jours.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Meteo7Jours.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000007 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000009 /* Meteo7Jours */,
+				A10000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000004 /* Meteo7Jours.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000009 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000100 /* AppDelegate.swift */,
+				A10000000000000000000101 /* CityStore.swift */,
+				A10000000000000000000102 /* ForecastView.swift */,
+				A10000000000000000000103 /* KeychainStore.swift */,
+				A10000000000000000000104 /* Meteo7JoursApp.swift */,
+				A10000000000000000000105 /* MeteoFranceClient.swift */,
+				A10000000000000000000106 /* Models.swift */,
+				A10000000000000000000107 /* SettingsView.swift */,
+				A10000000000000000000108 /* WeatherIcon.swift */,
+				A10000000000000000000109 /* WeatherViewModel.swift */,
+				A10000000000000000000300 /* Info.plist */,
+				A10000000000000000000301 /* Meteo7Jours.entitlements */,
+			);
+			path = Meteo7Jours;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000005 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000013 /* Build configuration list for PBXNativeTarget "Meteo7Jours" */;
+			buildPhases = (
+				A10000000000000000000006 /* Sources */,
+				A10000000000000000000007 /* Frameworks */,
+				A10000000000000000000008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meteo7Jours;
+			productName = Meteo7Jours;
+			productReference = A10000000000000000000004 /* Meteo7Jours.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A10000000000000000000005 = {
+						BuildIndependentTargetsInParallel = 1;
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A10000000000000000000010 /* Build configuration list for PBXProject "Meteo7Jours" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = fr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				fr,
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000002;
+			productRefGroup = A10000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000005 /* Meteo7Jours */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000008 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000006 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000200 /* AppDelegate.swift in Sources */,
+				A10000000000000000000201 /* CityStore.swift in Sources */,
+				A10000000000000000000202 /* ForecastView.swift in Sources */,
+				A10000000000000000000203 /* KeychainStore.swift in Sources */,
+				A10000000000000000000204 /* Meteo7JoursApp.swift in Sources */,
+				A10000000000000000000205 /* MeteoFranceClient.swift in Sources */,
+				A10000000000000000000206 /* Models.swift in Sources */,
+				A10000000000000000000207 /* SettingsView.swift in Sources */,
+				A10000000000000000000208 /* WeatherIcon.swift in Sources */,
+				A10000000000000000000209 /* WeatherViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000000012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10000000000000000000014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Meteo7Jours/Meteo7Jours.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Meteo7Jours/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meteo7jours.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+			};
+			name = Debug;
+		};
+		A10000000000000000000015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Meteo7Jours/Meteo7Jours.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Meteo7Jours/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meteo7jours.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000010 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000011 /* Debug */,
+				A10000000000000000000012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000013 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000014 /* Debug */,
+				A10000000000000000000015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000001 /* Project object */;
+}
