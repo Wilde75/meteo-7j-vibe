@@ -6,7 +6,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         Task { await WeatherViewModel.shared.refresh() }
-        refreshCancellable = Timer.publish(from: Date(), every: 15 * 60)
+        refreshCancellable = Timer.publish(every: 15 * 60, on: .main, in: .default)
             .autoconnect()
             .sink { _ in
                 Task { await WeatherViewModel.shared.refresh() }
