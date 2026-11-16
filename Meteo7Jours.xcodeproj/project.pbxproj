@@ -20,19 +20,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A10000000000000000000004 /* Meteo7Jours.app */ = {explicitFileType = wrapper.application; includeInIndex = 0; path = Meteo7Jours.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A10000000000000000000100 /* AppDelegate.swift */ = {lastKnownFileType = sourcecode.c.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A10000000000000000000101 /* CityStore.swift */ = {lastKnownFileType = sourcecode.c.swift; path = CityStore.swift; sourceTree = "<group>"; };
-		A10000000000000000000102 /* ForecastView.swift */ = {lastKnownFileType = sourcecode.c.swift; path = ForecastView.swift; sourceTree = "<group>"; };
-		A10000000000000000000103 /* KeychainStore.swift */ = {lastKnownFileType = sourcecode.c.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
-		A10000000000000000000104 /* Meteo7JoursApp.swift */ = {lastKnownFileType = sourcecode.c.swift; path = Meteo7JoursApp.swift; sourceTree = "<group>"; };
-		A10000000000000000000105 /* MeteoFranceClient.swift */ = {lastKnownFileType = sourcecode.c.swift; path = MeteoFranceClient.swift; sourceTree = "<group>"; };
-		A10000000000000000000106 /* Models.swift */ = {lastKnownFileType = sourcecode.c.swift; path = Models.swift; sourceTree = "<group>"; };
-		A10000000000000000000107 /* SettingsView.swift */ = {lastKnownFileType = sourcecode.c.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		A10000000000000000000108 /* WeatherIcon.swift */ = {lastKnownFileType = sourcecode.c.swift; path = WeatherIcon.swift; sourceTree = "<group>"; };
-		A10000000000000000000109 /* WeatherViewModel.swift */ = {lastKnownFileType = sourcecode.c.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
-		A10000000000000000000300 /* Info.plist */ = {lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A10000000000000000000301 /* Meteo7Jours.entitlements */ = {lastKnownFileType = text.plist.entitlements; path = Meteo7Jours.entitlements; sourceTree = "<group>"; };
+		A10000000000000000000004 /* Meteo7Jours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meteo7Jours.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A10000000000000000000101 /* CityStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = CityStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000102 /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = ForecastView.swift; sourceTree = "<group>"; };
+		A10000000000000000000103 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000104 /* Meteo7JoursApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = Meteo7JoursApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000105 /* MeteoFranceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = MeteoFranceClient.swift; sourceTree = "<group>"; };
+		A10000000000000000000106 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = Models.swift; sourceTree = "<group>"; };
+		A10000000000000000000107 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A10000000000000000000108 /* WeatherIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = WeatherIcon.swift; sourceTree = "<group>"; };
+		A10000000000000000000109 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		A10000000000000000000300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000301 /* Meteo7Jours.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Meteo7Jours.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
